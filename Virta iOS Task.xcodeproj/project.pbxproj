@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3501942C24562B2B00086096 /* StationsNotAvailableTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3501942B24562B2B00086096 /* StationsNotAvailableTCell.swift */; };
+		359CC6AC2454739800998DE9 /* VirtaEvse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359CC6A82454739800998DE9 /* VirtaEvse.swift */; };
+		359CC6AD2454739800998DE9 /* VirtaConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359CC6A92454739800998DE9 /* VirtaConnector.swift */; };
+		359CC6AE2454739800998DE9 /* VirtaStationDetailListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359CC6AA2454739800998DE9 /* VirtaStationDetailListResponse.swift */; };
+		359CC6AF2454739800998DE9 /* VirtaOneTimePricing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359CC6AB2454739800998DE9 /* VirtaOneTimePricing.swift */; };
+		359CC6B12454861400998DE9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359CC6B02454861400998DE9 /* CoreLocation.framework */; };
+		35F3F5DF245525180067C191 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F3F5DE245525180067C191 /* Extension.swift */; };
+		4D1DFCB6245370F80064CE38 /* VirtaLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1DFCB5245370F80064CE38 /* VirtaLogin.swift */; };
+		4DADC61E245313B600E14844 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DADC61D245313B600E14844 /* AppDelegate.swift */; };
+		4DADC623245313B600E14844 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DADC621245313B600E14844 /* Main.storyboard */; };
+		4DADC625245313B900E14844 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DADC624245313B900E14844 /* Assets.xcassets */; };
+		4DADC628245313B900E14844 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DADC626245313B900E14844 /* LaunchScreen.storyboard */; };
+		4DADC6312453178C00E14844 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DADC6302453178C00E14844 /* LoginVC.swift */; };
+		4DADC635245327C200E14844 /* StationsTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DADC634245327C200E14844 /* StationsTCell.swift */; };
+		4DADC63724532A6100E14844 /* StationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DADC63624532A6100E14844 /* StationsVC.swift */; };
+		4DADC63924532BC700E14844 /* PowerSwitchesCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DADC63824532BC700E14844 /* PowerSwitchesCCell.swift */; };
+		4DADC63D24533DC100E14844 /* StationDetailTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DADC63C24533DC100E14844 /* StationDetailTCell.swift */; };
+		4DADC63F24533E0600E14844 /* StationDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DADC63E24533E0600E14844 /* StationDetailVC.swift */; };
+		4DADC643245345ED00E14844 /* StationInfoAndHelpTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DADC642245345ED00E14844 /* StationInfoAndHelpTCell.swift */; };
+		4DADC64824534DAB00E14844 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DADC64724534DAB00E14844 /* BaseVC.swift */; };
+		4DADC64A2453508600E14844 /* FakeLaunchScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DADC6492453508600E14844 /* FakeLaunchScreenVC.swift */; };
+		4DADC64C2453511A00E14844 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DADC64B2453511A00E14844 /* Constants.swift */; };
+		4DADC64E2453512E00E14844 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DADC64D2453512E00E14844 /* Globals.swift */; };
+		4DADC650245351C900E14844 /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DADC64F245351C900E14844 /* ServerManager.swift */; };
+		DC260726FB4470C653A988FD /* Pods_Virta_iOS_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4C6A4E499ECF3B4CD2D8B6 /* Pods_Virta_iOS_Task.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		198009A76F6596627BFB1748 /* Pods-Virta iOS Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Virta iOS Task.release.xcconfig"; path = "Target Support Files/Pods-Virta iOS Task/Pods-Virta iOS Task.release.xcconfig"; sourceTree = "<group>"; };
+		3501942B24562B2B00086096 /* StationsNotAvailableTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsNotAvailableTCell.swift; sourceTree = "<group>"; };
+		359CC6A82454739800998DE9 /* VirtaEvse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtaEvse.swift; sourceTree = "<group>"; };
+		359CC6A92454739800998DE9 /* VirtaConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtaConnector.swift; sourceTree = "<group>"; };
+		359CC6AA2454739800998DE9 /* VirtaStationDetailListResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtaStationDetailListResponse.swift; sourceTree = "<group>"; };
+		359CC6AB2454739800998DE9 /* VirtaOneTimePricing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtaOneTimePricing.swift; sourceTree = "<group>"; };
+		359CC6B02454861400998DE9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		35F3F5DE245525180067C191 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		4D1DFCB5245370F80064CE38 /* VirtaLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtaLogin.swift; sourceTree = "<group>"; };
+		4DADC61A245313B600E14844 /* Virta iOS Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Virta iOS Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DADC61D245313B600E14844 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DADC622245313B600E14844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DADC624245313B900E14844 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DADC627245313B900E14844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DADC629245313B900E14844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DADC6302453178C00E14844 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		4DADC634245327C200E14844 /* StationsTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsTCell.swift; sourceTree = "<group>"; };
+		4DADC63624532A6100E14844 /* StationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsVC.swift; sourceTree = "<group>"; };
+		4DADC63824532BC700E14844 /* PowerSwitchesCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerSwitchesCCell.swift; sourceTree = "<group>"; };
+		4DADC63C24533DC100E14844 /* StationDetailTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailTCell.swift; sourceTree = "<group>"; };
+		4DADC63E24533E0600E14844 /* StationDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailVC.swift; sourceTree = "<group>"; };
+		4DADC642245345ED00E14844 /* StationInfoAndHelpTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationInfoAndHelpTCell.swift; sourceTree = "<group>"; };
+		4DADC64724534DAB00E14844 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		4DADC6492453508600E14844 /* FakeLaunchScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeLaunchScreenVC.swift; sourceTree = "<group>"; };
+		4DADC64B2453511A00E14844 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4DADC64D2453512E00E14844 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		4DADC64F245351C900E14844 /* ServerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
+		940F43D786A619FCAF42054E /* Pods-Virta iOS Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Virta iOS Task.debug.xcconfig"; path = "Target Support Files/Pods-Virta iOS Task/Pods-Virta iOS Task.debug.xcconfig"; sourceTree = "<group>"; };
+		CC4C6A4E499ECF3B4CD2D8B6 /* Pods_Virta_iOS_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Virta_iOS_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DADC617245313B600E14844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359CC6B12454861400998DE9 /* CoreLocation.framework in Frameworks */,
+				DC260726FB4470C653A988FD /* Pods_Virta_iOS_Task.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3501942A24562B1000086096 /* StationsCells */ = {
+			isa = PBXGroup;
+			children = (
+				3501942B24562B2B00086096 /* StationsNotAvailableTCell.swift */,
+				4DADC634245327C200E14844 /* StationsTCell.swift */,
+			);
+			path = StationsCells;
+			sourceTree = "<group>";
+		};
+		4D1DFCB3245370D60064CE38 /* ModelClasses */ = {
+			isa = PBXGroup;
+			children = (
+				4DE0171224538E9200E46203 /* StationsList */,
+				4D1DFCB4245370E00064CE38 /* Login */,
+			);
+			path = ModelClasses;
+			sourceTree = "<group>";
+		};
+		4D1DFCB4245370E00064CE38 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4D1DFCB5245370F80064CE38 /* VirtaLogin.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		4DADC611245313B600E14844 = {
+			isa = PBXGroup;
+			children = (
+				4DADC61C245313B600E14844 /* Virta iOS Task */,
+				4DADC61B245313B600E14844 /* Products */,
+				5049EBEF83835143928BAF42 /* Pods */,
+				A548A7C2EC72086461527170 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4DADC61B245313B600E14844 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DADC61A245313B600E14844 /* Virta iOS Task.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DADC61C245313B600E14844 /* Virta iOS Task */ = {
+			isa = PBXGroup;
+			children = (
+				4D1DFCB3245370D60064CE38 /* ModelClasses */,
+				4DADC6332453276D00E14844 /* CollectionViewCells */,
+				4DADC6322453276000E14844 /* TableViewCells */,
+				4DADC62F2453177400E14844 /* ViewControllers */,
+				4DADC61D245313B600E14844 /* AppDelegate.swift */,
+				4DADC621245313B600E14844 /* Main.storyboard */,
+				4DADC624245313B900E14844 /* Assets.xcassets */,
+				4DADC626245313B900E14844 /* LaunchScreen.storyboard */,
+				4DADC629245313B900E14844 /* Info.plist */,
+				4DADC64B2453511A00E14844 /* Constants.swift */,
+				4DADC64D2453512E00E14844 /* Globals.swift */,
+				4DADC64F245351C900E14844 /* ServerManager.swift */,
+				35F3F5DE245525180067C191 /* Extension.swift */,
+			);
+			path = "Virta iOS Task";
+			sourceTree = "<group>";
+		};
+		4DADC62F2453177400E14844 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4DADC64724534DAB00E14844 /* BaseVC.swift */,
+				4DADC6492453508600E14844 /* FakeLaunchScreenVC.swift */,
+				4DADC6302453178C00E14844 /* LoginVC.swift */,
+				4DADC63624532A6100E14844 /* StationsVC.swift */,
+				4DADC63E24533E0600E14844 /* StationDetailVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4DADC6322453276000E14844 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				3501942A24562B1000086096 /* StationsCells */,
+				4DADC63B24533DB000E14844 /* StationsDetails */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		4DADC6332453276D00E14844 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				4DADC63824532BC700E14844 /* PowerSwitchesCCell.swift */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		4DADC63B24533DB000E14844 /* StationsDetails */ = {
+			isa = PBXGroup;
+			children = (
+				4DADC63C24533DC100E14844 /* StationDetailTCell.swift */,
+				4DADC642245345ED00E14844 /* StationInfoAndHelpTCell.swift */,
+			);
+			path = StationsDetails;
+			sourceTree = "<group>";
+		};
+		4DE0171224538E9200E46203 /* StationsList */ = {
+			isa = PBXGroup;
+			children = (
+				359CC6AA2454739800998DE9 /* VirtaStationDetailListResponse.swift */,
+				359CC6A82454739800998DE9 /* VirtaEvse.swift */,
+				359CC6A92454739800998DE9 /* VirtaConnector.swift */,
+				359CC6AB2454739800998DE9 /* VirtaOneTimePricing.swift */,
+			);
+			path = StationsList;
+			sourceTree = "<group>";
+		};
+		5049EBEF83835143928BAF42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				940F43D786A619FCAF42054E /* Pods-Virta iOS Task.debug.xcconfig */,
+				198009A76F6596627BFB1748 /* Pods-Virta iOS Task.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A548A7C2EC72086461527170 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				359CC6B02454861400998DE9 /* CoreLocation.framework */,
+				CC4C6A4E499ECF3B4CD2D8B6 /* Pods_Virta_iOS_Task.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DADC619245313B600E14844 /* Virta iOS Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DADC62C245313B900E14844 /* Build configuration list for PBXNativeTarget "Virta iOS Task" */;
+			buildPhases = (
+				1E57327B46EDAE7C1CD5F242 /* [CP] Check Pods Manifest.lock */,
+				4DADC616245313B600E14844 /* Sources */,
+				4DADC617245313B600E14844 /* Frameworks */,
+				4DADC618245313B600E14844 /* Resources */,
+				FE1CB14A98F6E65A3BF1CF62 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Virta iOS Task";
+			productName = "Virta iOS Task";
+			productReference = 4DADC61A245313B600E14844 /* Virta iOS Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DADC612245313B600E14844 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Virta;
+				TargetAttributes = {
+					4DADC619245313B600E14844 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 4DADC615245313B600E14844 /* Build configuration list for PBXProject "Virta iOS Task" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DADC611245313B600E14844;
+			productRefGroup = 4DADC61B245313B600E14844 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DADC619245313B600E14844 /* Virta iOS Task */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DADC618245313B600E14844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DADC628245313B900E14844 /* LaunchScreen.storyboard in Resources */,
+				4DADC625245313B900E14844 /* Assets.xcassets in Resources */,
+				4DADC623245313B600E14844 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E57327B46EDAE7C1CD5F242 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Virta iOS Task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE1CB14A98F6E65A3BF1CF62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Virta iOS Task/Pods-Virta iOS Task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Virta iOS Task/Pods-Virta iOS Task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Virta iOS Task/Pods-Virta iOS Task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DADC616245313B600E14844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DADC64A2453508600E14844 /* FakeLaunchScreenVC.swift in Sources */,
+				4DADC63924532BC700E14844 /* PowerSwitchesCCell.swift in Sources */,
+				4DADC6312453178C00E14844 /* LoginVC.swift in Sources */,
+				359CC6AC2454739800998DE9 /* VirtaEvse.swift in Sources */,
+				4DADC63724532A6100E14844 /* StationsVC.swift in Sources */,
+				4DADC650245351C900E14844 /* ServerManager.swift in Sources */,
+				4DADC63F24533E0600E14844 /* StationDetailVC.swift in Sources */,
+				4DADC635245327C200E14844 /* StationsTCell.swift in Sources */,
+				4DADC64E2453512E00E14844 /* Globals.swift in Sources */,
+				4DADC63D24533DC100E14844 /* StationDetailTCell.swift in Sources */,
+				359CC6AD2454739800998DE9 /* VirtaConnector.swift in Sources */,
+				4DADC643245345ED00E14844 /* StationInfoAndHelpTCell.swift in Sources */,
+				4DADC61E245313B600E14844 /* AppDelegate.swift in Sources */,
+				4DADC64824534DAB00E14844 /* BaseVC.swift in Sources */,
+				35F3F5DF245525180067C191 /* Extension.swift in Sources */,
+				359CC6AE2454739800998DE9 /* VirtaStationDetailListResponse.swift in Sources */,
+				359CC6AF2454739800998DE9 /* VirtaOneTimePricing.swift in Sources */,
+				3501942C24562B2B00086096 /* StationsNotAvailableTCell.swift in Sources */,
+				4D1DFCB6245370F80064CE38 /* VirtaLogin.swift in Sources */,
+				4DADC64C2453511A00E14844 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4DADC621245313B600E14844 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DADC622245313B600E14844 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DADC626245313B900E14844 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DADC627245313B900E14844 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DADC62A245313B900E14844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DADC62B245313B900E14844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DADC62D245313B900E14844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 940F43D786A619FCAF42054E /* Pods-Virta iOS Task.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CXH6TR46LB;
+				INFOPLIST_FILE = "Virta iOS Task/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dev.Virta-iOS-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4DADC62E245313B900E14844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 198009A76F6596627BFB1748 /* Pods-Virta iOS Task.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HY5H9R7CD;
+				INFOPLIST_FILE = "Virta iOS Task/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dev.Virta-iOS-Task1sasasa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DADC615245313B600E14844 /* Build configuration list for PBXProject "Virta iOS Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DADC62A245313B900E14844 /* Debug */,
+				4DADC62B245313B900E14844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DADC62C245313B900E14844 /* Build configuration list for PBXNativeTarget "Virta iOS Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DADC62D245313B900E14844 /* Debug */,
+				4DADC62E245313B900E14844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DADC612245313B600E14844 /* Project object */;
+}

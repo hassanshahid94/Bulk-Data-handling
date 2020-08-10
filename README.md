@@ -39,7 +39,7 @@ App images are places in **Assets.xcassets** folder
 
 ### Cocoapods:
 
-Virta iOS Task uses a number of open source 3rd Party Libraries to for better user experience:
+Bulk Data handling uses a number of open source 3rd Party Libraries to for better user experience:
 
 * [MBProgressHUD](https://github.com/jdg/MBProgressHUD) - Custom Activity Indicator(Loader/Spinner)
 * [IQKeyboardManager](https://github.com/hackiftekhar/IQKeyboardManager) - Used to prevent issues of keyboard sliding up and cover UITextField/UITextView.
